@@ -1,11 +1,3 @@
-// 관심기업 등록 API
-import { privateApi } from "apis";
-
-export const addInterestingCompany = async (userId: number, values: any) => {
-  try {
-    const response = await privateApi.post(`/company/add/${userId}`, values);
-    return response.data;
-  } catch (error) {
-    throw error;
-  }
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6b1a15daf5ecef3c1d813fb88c92c4f79dee472db18875653ccd64eb233c03a
+size 2931

@@ -1,23 +1,3 @@
-// 기업조회 페이지 지원 정보 조회 펼쳤을 때 데이터
-import React from "react";
-import styled from "styled-components";
-import ApplyResume from "./ApplyResume";
-import ApplyInterview from "./ApplyInterview";
-
-const Container = styled.div`
-  margin-left: 5px;
-`;
-
-const CompanyApplyItem = () => {
-  return (
-    <>
-      <Container>
-        <ApplyResume />
-        <br />
-        <ApplyInterview />
-      </Container>
-    </>
-  );
-};
-
-export default CompanyApplyItem;
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbc0e9344b929f8668b6300a29ebb53e0ce8447427be9fdbec66980603fbd773
+size 830
